@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "node_js intro ",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieli4444/node_js.git"
+  },
+  "author": "daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieli4444/node_js/issues"
+  },
+  "homepage": "https://github.com/danieli4444/node_js#readme"
 }
