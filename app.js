@@ -10,3 +10,13 @@
  app.get('/about',(req, res) => {
     res.sendFile('/about.html',{root: __dirname});
  })
+
+ // redirects:
+ app.get('/about-me',(req, res) => {
+    res.redirect('/about');
+ })
+
+ // use - 404 page. if the other get request didn't work it will run this:
+app.use((req, res) =>{
+    res.sendFile('/404.html');
+})
